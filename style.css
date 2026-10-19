@@ -1,0 +1,35 @@
+body {
+    background-color: #87ceeb;
+    background-image: radial-gradient(circle, white 2px, transparent 3px);
+    background-size: 40px 40px;
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.weather-card {
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #1e90ff, #87cefa);
+}
+.weather-icon {
+    font-size: 70px;
+    animation: floatCloud 3s infinite alternate;
+}
+
+@keyframes floatCloud {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+.forecast-section {
+    width: 600px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-image: radial-gradient(circle, white, #add8e6);
+    color: #003366;
+}
